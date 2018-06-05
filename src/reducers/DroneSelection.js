@@ -1,10 +1,8 @@
-import {CHOOSE_DRONE, CHOOSE_NORMAL} from '../actions/types.js';
+import {CHOOSE_DELIVERY} from '../actions/types.js';
 
 export default function (state = [], action = {}) {
     switch (action.type) {
-        case CHOOSE_DRONE:
-            return action.payload.value
-        case CHOOSE_NORMAL:
+        case CHOOSE_DELIVERY:
             return action.payload.value
         default:
             return state

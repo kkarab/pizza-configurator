@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { chooseBase } from '../actions/types.js';
 import store from '../store';
-import './PickBase.css';
+//import './PickBase.css';
 
 class PickBase extends React.Component {
     constructor(props) {
@@ -15,7 +15,7 @@ class PickBase extends React.Component {
   
     handleChange(event) {
       this.setState({value: event.target.value});
-      store.dispatch()
+      store.dispatch(chooseBase({value: event.target.value}))
     }
   
     render() {
@@ -35,4 +35,4 @@ class PickBase extends React.Component {
     }
   }
 
-  export default connect(null, {chooseBase})(PickBase)
+export default connect(null, {chooseBase})(PickBase)

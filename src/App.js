@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import PickBase from './components/PickBase.js';
 import PickSauce from './components/PickSauce.js';
-import PizckToppings from './components/PickToppings.js';
+import PickToppings from './components/PickToppings.js';
 import PickDelivery from './components/PickDelivery.js';
 import OrderCost from './components/OrderCost.js';
 
@@ -21,10 +21,10 @@ class App extends Component {
         </p>
         <p>The total cost of your pizza will be displayed below. If you choose delivery by drone, the total cost is increased by 10%.
         <PickBase/>
-        {/* <PickSauce/>
+        <PickSauce/>
         <PickToppings/>
         <PickDelivery/>
-        <OrderCost/> */}
+        {/*<OrderCost/> */}
         </p>
       </div>
     );

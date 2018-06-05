@@ -2,8 +2,7 @@ export const CHOOSE_BASE = "CHOOSE_BASE";
 export const CHOOSE_SAUCE = "CHOOSE_SAUCE";
 export const ADD_TOPPING = "ADD_TOPPING";
 export const REMOVE_TOPPING = "REMOVE_TOPPING";
-export const CHOOSE_DRONE = "CHOOSE_DRONE";
-export const CHOOSE_NORMAL = "CHOOSE_NORMAL";
+export const CHOOSE_DELIVERY = "CHOOSE_DELIVERY";
 
 export const chooseBase = (base) => {
     return {
@@ -33,16 +32,9 @@ export const removeTopping = (topping) => {
     }
 }
 
-export const chooseDrone = (drone) => {
+export const chooseDelivery = (delivery) => {
     return {
-        type: CHOOSE_DRONE,
-        payload: drone
-    }
-}
-
-export const chooseNormal = (normal) => {
-    return {
-        type:CHOOSE_NORMAL,
-        payload: normal
+        type: CHOOSE_DELIVERY,
+        payload: delivery
     }
 }
