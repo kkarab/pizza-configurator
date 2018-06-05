@@ -5,7 +5,7 @@ export default function (state = [], action = {}) {
         case ADD_TOPPING:
             return state.concat(action.payload)
         case REMOVE_TOPPING:
-            return state,filter(topping => topping !== action.payload)
+            return state.filter(topping => topping !== action.payload)
         default:
             return state
     }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import PizzaBase from './components/PizzaBase.js';
+import PickBase from './components/PickBase.js';
 import PickSauce from './components/PickSauce.js';
 import PizckToppings from './components/PickToppings.js';
 import PickDelivery from './components/PickDelivery.js';
@@ -20,7 +20,7 @@ class App extends Component {
           To get started, choose your pizza base, your pizza sauce, your pizza toppings and type of delivery.
         </p>
         <p>The total cost of your pizza will be displayed below. If you choose delivery by drone, the total cost is increased by 10%.
-        <PizzaBase/>
+        <PickBase/>
         {/* <PickSauce/>
         <PickToppings/>
         <PickDelivery/>
