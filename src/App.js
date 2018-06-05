@@ -21,10 +21,10 @@ class App extends Component {
         </p>
         <p>The total cost of your pizza will be displayed below. If you choose delivery by drone, the total cost is increased by 10%.
         <PizzaBase/>
-        <PickSauce/>
+        {/* <PickSauce/>
         <PickToppings/>
         <PickDelivery/>
-        <OrderCost/>
+        <OrderCost/> */}
         </p>
       </div>
     );

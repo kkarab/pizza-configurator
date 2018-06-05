@@ -3,4 +3,5 @@ export const CHOOSE_SAUCE = 'CHOOSE_SAUCE';
 export const ADD_TOPPING = 'ADD_TOPPING';
 export const REMOVE_TOPPING = 'REMOVE_TOPPING';
 export const CHOOSE_DRONE = 'CHOOSE_DRONE';
+export const CHOOSE_NORMAL = 'CHOOSE_NORMAL';
 

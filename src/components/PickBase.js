@@ -38,3 +38,5 @@ class PizzaBase extends React.Component {
       );
     }
   }
+
+  export default PizzaBase
