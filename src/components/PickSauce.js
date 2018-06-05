@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { chooseSauce } from '../actions/types.js';
 import store from '../store';
-//import './PickSauce.css';
 
 class PickSauce extends React.Component {
     constructor(props) {

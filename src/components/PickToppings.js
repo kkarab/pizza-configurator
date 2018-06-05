@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { addTopping, removeTopping } from '../actions/types.js';
 import store from '../store';
-//import './PickToppings.css';
 
 class PickToppings extends React.Component {
     constructor(props) {
@@ -21,7 +20,7 @@ class PickToppings extends React.Component {
   
     render() {
       return (
-        <form onSubmit={this.handleSubmit}>
+        <form>
           <label>
             Pick your favorite toppings for your pizza: (you can select up to 3 toppings)
             <select multiple={true} value={this.state.value} onChange={this.handleChange}>

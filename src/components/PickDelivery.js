@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { chooseDelivery } from '../actions/types.js';
 import store from '../store';
-//import './PickDelivery.css';
 
 class PickDelivery extends React.Component {
     constructor(props) {

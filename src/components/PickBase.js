@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { chooseBase } from '../actions/types.js';
 import store from '../store';
-//import './PickBase.css';
 
 class PickBase extends React.Component {
     constructor(props) {
