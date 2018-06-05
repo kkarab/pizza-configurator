@@ -20,12 +20,12 @@ class PickDelivery extends React.Component {
     render() {
       return (
         <form action="#">
+          <h2>Pick the type of delivery for your pizza:</h2>
           <p>
-            <h2>Pick the type of delivery for your pizza:</h2>
-              <label>              
-                <input name="group4" type="radio" value="normal" onChange={this.handleChange}/>
-                <span>Standard Delivery (no extra cost)</span>
-              </label>
+            <label>              
+              <input name="group4" type="radio" value="normal" onChange={this.handleChange}/>
+              <span>Standard Delivery (no extra cost)</span>
+            </label>
           </p>
           <p>
             <label>

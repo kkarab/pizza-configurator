@@ -25,14 +25,14 @@ class PickToppings extends React.Component {
     render() {
       return (
         <form action="#">
+          <h2>Pick your favorite toppings:</h2>
+          <h3>(you may select up to 3 toppings!)</h3>
           <p>
-            <h2>Pick your favorite toppings:</h2>
-            <h3>(you may select up to 3 toppings!)</h3>
-              <label>              
-                <input name="group3" type="checkbox" class="filled-in" value="tomatoes" onChange={this.handleChange} />
-                {/* disabled={this.state.length>=3 && this.state.filter(topping => topping==="tomatoes").length===0} */}
-                <span>Cherry tomatoes (extra € 0,50 cost)</span>
-              </label>
+            <label>              
+              <input name="group3" type="checkbox" class="filled-in" value="tomatoes" onChange={this.handleChange} />
+              {/* disabled={this.state.length>=3 && this.state.filter(topping => topping==="tomatoes").length===0} */}
+              <span>Cherry tomatoes (extra € 0,50 cost)</span>
+            </label>
           </p>
           <p> 
             <label>

@@ -20,12 +20,12 @@ class PickSauce extends React.Component {
     render() {
       return (
         <form action="#">
+          <h2>Pick your favorite sauce for your pizza:</h2>
           <p>
-            <h2>Pick your favorite sauce for your pizza:</h2>
-              <label>              
-                <input name="group2" type="radio" value="White" onChange={this.handleChange}/>
-                <span>White Sauce (no extra cost)</span>
-              </label>
+            <label>              
+              <input name="group2" type="radio" value="White" onChange={this.handleChange}/>
+              <span>White Sauce (no extra cost)</span>
+            </label>
           </p>
           <p>
             <label>

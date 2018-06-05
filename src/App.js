@@ -19,13 +19,12 @@ class App extends Component {
         <p className="App-intro">
           To get started, choose your pizza base, your pizza sauce, your pizza toppings and type of delivery.
         </p>
-        <p>The total cost of your pizza will be displayed below. If you choose delivery by drone, the total cost is increased by 10%.
+        <p>The total cost of your pizza will be displayed below. If you choose delivery by drone, the total cost is increased by 10%.</p>
         <PickBase/>
         <PickSauce/>
         <PickToppings/>
         <PickDelivery/>
-        {/*<OrderCost/> */}
-        </p>
+        <OrderCost/>
       </div>
     );
   }

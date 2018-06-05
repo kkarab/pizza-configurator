@@ -20,12 +20,12 @@ class PickBase extends React.Component {
     render() {
       return (
         <form action="#">
+          <h2>Pick your favorite base:</h2>
           <p>
-            <h2>Pick your favorite base:</h2>
-              <label>              
-                <input name="group1" type="radio" value="B20" onChange={this.handleChange}/>
-                <span>20cm NY Style € 6,45 cost</span>
-              </label>
+            <label>              
+              <input name="group1" type="radio" value="B20" onChange={this.handleChange}/>
+              <span>20cm NY Style € 6,45 cost</span>
+            </label>
           </p>
           <p>
             <label>
