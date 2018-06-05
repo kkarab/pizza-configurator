@@ -19,16 +19,32 @@ class PickSauce extends React.Component {
   
     render() {
       return (
-        <form>
-          <label>
-            Pick your favorite sauce for your pizza:
-            <select value={this.state.value} onChange={this.handleChange}>
-              <option value="White">White Sauce (no extra cost)</option>
-              <option value="Red">Red Sauce (no extra cost)</option>
-              <option value="2Xred">Double Red Sauce (extra € 1,00 cost)</option>
-              <option value="Mix">Mix It Up (extra € 1,50 cost)</option>
-            </select>
-          </label>
+        <form action="#">
+          <p>
+            <h2>Pick your favorite sauce for your pizza:</h2>
+              <label>              
+                <input name="group2" type="radio" value="White" onChange={this.handleChange}/>
+                <span>White Sauce (no extra cost)</span>
+              </label>
+          </p>
+          <p>
+            <label>
+              <input name="group2" type="radio" value="Red" onChange={this.handleChange}/>
+              <span>Red Sauce (no extra cost)</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="group2" type="radio" value="2Xred" onChange={this.handleChange}/>
+              <span>Double Red Sauce (extra € 1,00 cost)</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="group2" type="radio" value="Mix" onChange={this.handleChange}/>
+              <span>Mix It Up (extra € 1,50 cost)</span>
+            </label>
+          </p>
         </form>
       );
     }

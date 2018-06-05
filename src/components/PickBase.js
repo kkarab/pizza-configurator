@@ -19,16 +19,32 @@ class PickBase extends React.Component {
   
     render() {
       return (
-        <form>
-          <label>
-            Pick your favorite base for your pizza:
-            <select value={this.state.value} onChange={this.handleChange}>
-              <option value="B20">20cm NY Style € 6,45</option>
-              <option value="B25">25cm NY Style € 8,99</option>
-              <option value="B30">30cm NY Style € 11,49</option>
-              <option value="B35">35cm NY Style € 13,49</option>
-            </select>
-          </label>
+        <form action="#">
+          <p>
+            <h2>Pick your favorite base:</h2>
+              <label>              
+                <input name="group1" type="radio" value="B20" onChange={this.handleChange}/>
+                <span>20cm NY Style € 6,45 cost</span>
+              </label>
+          </p>
+          <p>
+            <label>
+              <input name="group1" type="radio" value="B25" onChange={this.handleChange}/>
+              <span>25cm NY Style € 8,99 cost</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="group1" type="radio" value="B30" onChange={this.handleChange}/>
+              <span>30cm NY Style € 11,49 cost</span>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input name="group1" type="radio" value="B35" onChange={this.handleChange}/>
+              <span>35cm NY Style € 13,49 cost</span>
+            </label>
+          </p>
         </form>
       );
     }
